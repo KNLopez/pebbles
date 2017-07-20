@@ -190,8 +190,22 @@
 .bounceIn {
   animation-name: bounceIn;
 }
-
-
+.Powered{
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+}
+.Powered a{
+  text-decoration: none;
+  color: #46B7AE;
+}
+.Powered img{
+      max-width: 40px;
+      clear: both;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+    }
 
 
 @media screen and (max-width: 720px) {
