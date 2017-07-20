@@ -1,6 +1,6 @@
 {
   "name": "pebbles",
-  "homepage": "http://www.pebbles.life/",
+  "homepage": "http://www.pebbles.life",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
