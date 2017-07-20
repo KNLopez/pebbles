@@ -192,6 +192,8 @@
 }
 
 
+
+
 @media screen and (max-width: 720px) {
     html,body{
       max-width: 100%;
@@ -216,14 +218,42 @@
       text-align: center;
     }
     .content{
-      max-width: 400px;
+      max-width: 100%;
     }
     .Timer{
       padding: 10px 0;
       width: 100%;
-      max-width: 400px;
+      max-width: 100%;
     }
     .timeValue{
+      padding: 10px 5px;
       font-size: 40px;
     }
+    .Powered{
+      padding: 40px 0;
+    }
+
+    .Powered img{
+      max-width: 40px;
+      clear: both;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .logo{
+      float: none;
+      margin: 0;
+      text-align: center;
+      width: 100%;
+    }
+    .nav-links{
+      width: 100%;
+      float:none;
+      text-align: center;
+    }
+    .nav a{
+      display: inline-block;
+      float: none;
+    }
+    
 }

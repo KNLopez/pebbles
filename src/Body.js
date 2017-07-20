@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import HomeText from './Hometext';
 import AboutText from './AboutText';
 import Contact from './Contact';
 import HomeImg from './home.jpg';
+import logoSchool from './SchoolinaBackpack.png';
+
 
 
 
@@ -22,7 +24,7 @@ class Body extends Component {
                     <Route exact path="/contact" component={Contact} />
                 </div>
                 
-                
+                <div className="Powered"><img src={logoSchool} />Powered By <a target="_blank" href="http://www.schoolinabackpack.com">SchoolinaBackpack</a></div>
             </div>
         );
     }
