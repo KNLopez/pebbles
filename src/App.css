@@ -57,6 +57,9 @@
   width: 70px;
   margin-left: 20px;
 }
+.logo img{
+  max-width: 70px;
+}
 .nav-links{
   position: relative;
   float: right;
