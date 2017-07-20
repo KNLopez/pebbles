@@ -1,9 +1,10 @@
 {
   "main.css": "static/css/main.58c8b5cd.css",
   "main.css.map": "static/css/main.58c8b5cd.css.map",
-  "main.js": "static/js/main.cbbfdb67.js",
-  "main.js.map": "static/js/main.cbbfdb67.js.map",
+  "main.js": "static/js/main.a45da18e.js",
+  "main.js.map": "static/js/main.a45da18e.js.map",
   "static/media/SchoolinaBackpack.png": "static/media/SchoolinaBackpack.a8c1d416.png",
   "static/media/TravelingTypewriter.ttf": "static/media/TravelingTypewriter.1085a2ae.ttf",
-  "static/media/home.jpg": "static/media/home.048105c6.jpg"
+  "static/media/home.jpg": "static/media/home.048105c6.jpg",
+  "static/media/logo.png": "static/media/logo.f6214e43.png"
 }
