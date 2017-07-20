@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import Body from './Body';
 import './App.css';
-// import Logo from './logo.png';
+import Logo from './logo.png';
 
 class App extends Component {
    constructor(props){
@@ -24,7 +24,7 @@ class App extends Component {
       <div className="App">
           
           <div className="nav">
-            {/* <div className="logo"><img src={Logo} /></div>  */}
+            <div className="logo"><img src={Logo} /></div> 
             <div className="nav-links">
               <NavLink onClick={()=>{this.changeRotation('10deg')}} exact to="/" activeClassName="active"> Home </NavLink>
               <NavLink onClick={()=>{this.changeRotation('5deg')}} to="/about" activeClassName="active"> About </NavLink> 
