@@ -269,5 +269,8 @@
       display: inline-block;
       float: none;
     }
-    
+    .Powered{
+  position: relative;
+
+  } 
 }
