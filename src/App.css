@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: TravellingTypewriter;  
     src: url('./TravelingTypewriter.ttf');  
@@ -191,3 +192,38 @@
 }
 
 
+@media screen and (max-width: 720px) {
+    html,body{
+      max-width: 100%;
+    }
+    .title{
+      font-size: 40px;
+    }
+    .HomeText{
+      max-width: 480px;
+    }
+    .HomeText p{
+      width: 50%;
+      font-size: 22px;
+      margin: 0 auto;
+    }
+    .image{
+      display: none;
+    }
+    .subHeader{
+      font-size: 28px;
+      display: block;
+      text-align: center;
+    }
+    .content{
+      max-width: 400px;
+    }
+    .Timer{
+      padding: 10px 0;
+      width: 100%;
+      max-width: 400px;
+    }
+    .timeValue{
+      font-size: 40px;
+    }
+}
