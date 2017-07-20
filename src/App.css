@@ -1,24 +1,190 @@
+@font-face{
+    font-family: TravellingTypewriter;  
+    src: url('./TravelingTypewriter.ttf');  
+    font-weight: normal;  
+}
+
 .App {
   text-align: center;
+  background: #DAEAF0;
+  min-height: 100vh;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.subHeader{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  color:white;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.41);
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.subHeader img{
+  padding-left: 10px;
+}
+.title{
+  font-size: 5.5em;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.41);
   color: white;
+  font-family: 'TravellingTypewriter';
+  margin-bottom: .2em;
+  margin-top: 0;
+}
+.image{
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  z-index: 0;
 }
 
-.App-intro {
-  font-size: large;
+.homeImage{
+  max-width: 900px;
+  margin: 0 auto;
+  z-index: 0;
+  transition: all .4s ease;
+}
+.nav{
+  width: 100%;
+  padding-top: 20px;
+}
+.logo{
+  float: left;
+  width: 70px;
+  margin-left: 20px;
+}
+.nav-links{
+  position: relative;
+  float: right;
+  width: 50%;
+}
+.nav a{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  float: left;
+  color: #46B7AE;
+}
+.nav a.active{
+  color: #F8881A;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.main{
+  padding-top: 10px;
+  clear:both;
 }
+
+.HomeText p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin: 0; 
+}
+
+.content{
+  transform: translateZ(1px);
+}
+
+.Timer{
+  
+  background: rgba(28,192,179,.65);
+  border-radius: 10px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+.timeContainer{
+  display: inline-block;
+  width: 25%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.timeValue{
+  color: #111;
+  background: white;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 5px;
+  line-height: 80px;
+  font-size: 90px;
+  padding: 20px 5px;
+  margin-bottom: 4px;
+  font-weight: 800;
+  font-family: 'Oswald', sans-serif;
+}
+.AboutText{
+    padding: 20px;
+    text-align: left;
+    width: 70%;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: 2px solid #46B7AE;
+    background: white;
+    color: #46B7AE;
+    font-size: 24px;
+    line-height: 30px;
+}
+.AboutText h1{
+  font-family: 'Oswald', sans-serif;
+    margin: 0;
+    color: orange;
+    line-height: 40px;
+    font-size: 40px;
+}
+
+.animated {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .35s;
+}
+
+@keyframes bounceIn {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-name: bounceIn;
+}
+
+
