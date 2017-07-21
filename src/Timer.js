@@ -7,7 +7,12 @@ class Timer extends Component {
             endDate: Date.parse('2017-07-29T10:00:00'),
             currentDate: new Date(),
             seconds: '',
-            time: {}
+            time: {
+                "d": "--",
+                "h": "--",
+                "m": "--",
+                "s": "--"
+            }
         }
     }
 
@@ -43,7 +48,7 @@ class Timer extends Component {
         };
         return obj;
     }
-
+    
     componentDidMount() {
 
         let timeRemaining = Math.abs(this.state.endDate - this.state.currentDate);
