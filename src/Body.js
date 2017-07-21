@@ -5,6 +5,7 @@ import AboutText from './AboutText';
 import Contact from './Contact';
 import HomeImg from './home.jpg';
 import logoSchool from './SchoolinaBackpack.png';
+import Join from './Join';
 
 
 
@@ -20,8 +21,9 @@ class Body extends Component {
                 </div>
                 <div className="content">
                     <Route exact path="/" component={HomeText} />
-                    <Route exact path="/about" component={AboutText} />
-                    <Route exact path="/contact" component={Contact} />
+                    <Route  path="/about" component={AboutText} />
+                    <Route  path="/contact" component={Contact} />
+                    <Route path="/join" component={Join}/>
                 </div>
                 
                 <div className="Powered"><img src={logoSchool} />Powered By <a target="_blank" href="http://www.schoolinabackpack.com">SchoolinaBackpack</a></div>
