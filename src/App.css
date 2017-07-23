@@ -81,6 +81,7 @@
 .main{
   padding-top: 10px;
   clear:both;
+  position: relative;
 }
 
 .HomeText p{
@@ -191,7 +192,7 @@
   animation-name: bounceIn;
 }
 .Powered{
-  position: fixed;
+  position: absolute;
   bottom: 5px;
   right: 20px;
 }
@@ -220,7 +221,7 @@
 
   height: 500px;
 
-  margin: 60px auto;
+  margin: 60px auto 120px;
   border: none;
 }
 @media screen and (max-width: 720px) {
@@ -260,6 +261,8 @@
     }
     .Powered{
       padding: 40px 0;
+      right: 0;
+      bottom: 0;
     }
 
     .Powered img{
@@ -285,8 +288,7 @@
       float: none;
     }
     .Powered{
-    position: relative;
-
+      position: relative;
     } 
 
     #typeform{
