@@ -82,7 +82,6 @@ class Timer extends Component {
     render() {
         return (
           <div className="Timer"> 
-              
               <div className="timeContainer">
                   <div className="timeValue">{this.state.time.d}</div>
                   Days 
