@@ -79,6 +79,7 @@
 }
 
 .main{
+  min-height: 88vh;
   padding-top: 10px;
   clear:both;
   position: relative;
