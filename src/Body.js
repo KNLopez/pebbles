@@ -13,7 +13,6 @@ import Join from './Join';
 class Body extends Component {
    
     render() {
-        console.log(this.props.rotation)
         return (
             <div className = "main">
                 <div className="image">
