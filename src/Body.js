@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import HomeText from './Hometext';
 import AboutText from './AboutText';
 import Contact from './Contact';
+import Watch from './Watch'
 import HomeImg from './home.jpg';
 import logoSchool from './SchoolinaBackpack.png';
 import Join from './Join';
@@ -21,6 +22,7 @@ class Body extends Component {
                 <div className="content">
                     <Route exact path="/" component={HomeText} />
                     <Route  path="/about" component={AboutText} />
+                    <Route  path="/watch" component={Watch} />
                     <Route  path="/contact" component={Contact} />
                     <Route path="/join" component={Join}/>
                 </div>

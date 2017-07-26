@@ -29,7 +29,7 @@ class App extends Component {
               <NavLink onClick={()=>{this.changeRotation('10deg')}} exact to="/" activeClassName="active"> Home </NavLink>
               <NavLink onClick={()=>{this.changeRotation('5deg')}} to="/about" activeClassName="active"> About </NavLink> 
               <NavLink onClick={()=>{this.changeRotation('0deg')}} to="/watch" activeClassName="active"> Watch Video </NavLink>
-              <NavLink onClick={()=>{this.changeRotation('-5deg')}} to="/join" activeClassName="active"> Join Pebbles </NavLink>  
+              {/* <NavLink onClick={()=>{this.changeRotation('-5deg')}} to="/join" activeClassName="active"> Join Pebbles </NavLink>   */}
               <NavLink onClick={()=>{this.changeRotation('-10deg')}} to="/contact" activeClassName="active"> Contact </NavLink>  
             </div>
           </div>

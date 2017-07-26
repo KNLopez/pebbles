@@ -8,7 +8,7 @@ class Join extends Component {
     render() {
         return (
             <div className = "Join">
-                 <iframe id="typeform" src="https://forms.typeform.io/to/e9YaqCtYwY"/>
+                 <iframe id="typeform" src="https://forms.typeform.io/to/8EBwb7tnzu"/>
             </div>
         );
     }
