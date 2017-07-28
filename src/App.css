@@ -225,6 +225,52 @@
   margin: 60px auto 120px;
   border: none;
 }
+.backdrop{
+  position:fixed;
+  background: rgba(0,0,0,0.6);
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  right:0;
+  left: 0;
+  margin-top: -103px;
+}
+
+.Join{
+  display: inline-block;
+  width: 70%;
+}
+
+.joinUs{
+    max-width: 400px;
+    width: 80%;
+    padding: 50px;
+    background: #46B7AE;
+    border: none;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.joinUs:hover{
+    transition: .4s all ease;
+    transform: scale(1.1);
+    width: 80%;
+    padding: 50px;
+    background: #F8881A;
+    border: none;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
 @media screen and (max-width: 720px) {
     html,body{
       max-width: 100%;
@@ -295,5 +341,22 @@
     #typeform{
       margin: 0px;
       max-width: 100%;
+    }
+
+    .joinUs, .joinUs:hover{
+    padding: 20px;
+     }
+     .backdrop{
+      
+      background: rgba(0,0,0,0.6);
+      height: 200vh;
+      width: 100%;
+      top: 0;
+      right:0;
+      left: 0;
+      margin-top: -253px;
+    }
+    .Join{
+      margin-top: 120px;
     }
 }
