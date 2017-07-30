@@ -23,8 +23,8 @@ class HomeText extends Component {
         return (
             <div className="HomeText">
                 <h1 className ="title"> Learning is Everywhere! </h1>
-                <div className="subHeader">CATCH US AT<img src={TechTonic}/></div>
-                <p> SMX Convention Center | The Office Project Booth</p>
+                {/* <div className="subHeader">CATCH US AT<img src={TechTonic}/></div>
+                <p> SMX Convention Center | The Office Project Booth</p> */}
                 <button onClick={this.hideMOdal} className="joinUs animate bounceIn"> Join us </button>
                 {
                     this.state.joinVisible? 
